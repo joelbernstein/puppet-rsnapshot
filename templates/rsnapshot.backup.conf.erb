@@ -3,5 +3,5 @@
 #	<%= comment %>
 #
 <% end -%>
-backup	<%= source %>	<%= name.chomp('/')+'/' %><% if options != [] %>	<%= options.join(',') %><% end %>
+echo -e backup\t\t<%= source %>\t\t<%= name.chomp('/')+'/' %><% if options != [] %>\t\t<%= options.join(',') %><% end %>
 
